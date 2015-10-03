@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @applicant.first_name %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @applicant.surname %>
+</p>
+
+<p>
+  <strong>Credit card no:</strong>
+  <%= @applicant.credit_card_no %>
+</p>
+
+<p>
+  <strong>Id number:</strong>
+  <%= @applicant.id_number %>
+</p>
+
+<%= link_to 'Edit', edit_applicant_path(@applicant) %> |
+<%= link_to 'Back', applicants_path %>
