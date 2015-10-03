@@ -12,4 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require bower_components/bootstrap/dist/css/bootstrap.min.css
+ *= require dist/css/sb-admin-2.css
  */
