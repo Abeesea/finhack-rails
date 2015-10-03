@@ -47,3 +47,6 @@ group :development, :test do
   gem 'spring'
 end
 
+# install forgery
+gem 'ffaker'
+
