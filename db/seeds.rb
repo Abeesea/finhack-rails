@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+gem 'ffaker'
+
+10.times do
+     Applicant.create(
+        first_name: FFaker::Name.first_name,
+        surname: FFaker::Name.last_name
+      ) 
+end 
+
+
